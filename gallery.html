@@ -49,7 +49,7 @@
     function slide(direction) {
       currentIndex = (currentIndex + direction + slides.length) % slides.length;
       const movePercent = 100 / slides.length;
-      track.style.transform = `translateX(-${currentIndex * movePercent}%)`;
+      track.style.transform = `translateX(-${currentIndex * 100}%)`;
     }
   </script>  
   
