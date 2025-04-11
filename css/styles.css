@@ -105,6 +105,48 @@ button:hover,
   border-radius: 5px;
 }
 
+/* Why Subscription Section */
+.why-subscription {
+  background-color: #fff;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.why-subscription h2 {
+  color: #1f3c88;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.why-subscription .intro {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.subscription-benefits {
+  list-style-type: none;
+  padding: 0;
+}
+
+.subscription-benefits li {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.subscription-benefits li strong {
+  color: #1f3c88;
+}
+
+
 /* Footer */
 footer {
   text-align: center;
