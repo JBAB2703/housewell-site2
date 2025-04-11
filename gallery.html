@@ -48,7 +48,7 @@
   <script>
     let currentIndex = 0;
     const track = document.getElementById('sliderTrack');
-    const slides = track.querySelectorAll('img');
+    const slides = document.querySelectorAll('#sliderTrack img');
   
     function slide(direction) {
       currentIndex = (currentIndex + direction + slides.length) % slides.length;
