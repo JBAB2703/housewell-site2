@@ -36,7 +36,7 @@
     </section>
 
   </main>
-  
+
   <footer>
     <p>&copy; 2025 Housewell. Veteran Owned & Family Run.</p>
   </footer>
@@ -44,7 +44,7 @@
   <script>
     let currentIndex = 0;
     const track = document.getElementById('sliderTrack');
-    const slides = document.querySelectorAll('#sliderTrack img');
+    const slides = track.querySelectorAll('img');
   
     function slide(direction) {
       currentIndex = (currentIndex + direction + slides.length) % slides.length;
