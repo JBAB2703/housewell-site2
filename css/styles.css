@@ -383,7 +383,7 @@ button:hover,
 .slider-container {
   position: relative;
   overflow: hidden;
-  max-width: 100%;
+  max-width: 1000;
   margin: 0 auto;
   height: 500px;
 }
@@ -391,8 +391,6 @@ button:hover,
 .slider-track {
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
   transition: transform 0.5s ease-in-out;
 }
 
