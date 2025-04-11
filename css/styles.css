@@ -364,6 +364,68 @@ button:hover,
   }
 }
 
+/* Gallery Slider */
+.gallery-slider {
+  padding: 3rem 1rem;
+  background: #fff;
+  text-align: center;
+  max-width: 1000px;
+  margin: 3rem auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+}
+
+.gallery-slider h2 {
+  color: #1f3c88;
+  margin-bottom: 2rem;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 300%; /* Adjust based on number of images */
+}
+
+.slider-track img {
+  width: 100%;
+  flex: 0 0 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Buttons */
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(31, 60, 136, 0.9);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.slider-btn.prev {
+  left: 10px;
+}
+
+.slider-btn.next {
+  right: 10px;
+}
+
+.slider-btn:hover {
+  background: #edb86e;
+}
+
 
 /* Footer */
 footer {

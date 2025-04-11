@@ -21,12 +21,36 @@
   </header>
 
   <main>
-    <h2 class="sticky-heading">Our Work:</h2>
-    <p>...</p>
+    <section class="gallery-slider">
+      <h2>Project Gallery</h2>
+      <div class="slider-container">
+        <div class="slider-track" id="sliderTrack">
+          <img src="images/fireplace.jpg" alt="Custom fireplace surround">
+          <img src="images/MRBasement1.jpeg" alt="Finished basement ceiling">
+          <img src="images/MRBasement2.jpeg" alt="Finished basement cabinets">
+          <!-- Add more images as needed -->
+        </div>
+        <button class="slider-btn prev" onclick="slide(-1)">❮</button>
+        <button class="slider-btn next" onclick="slide(1)">❯</button>
+      </div>
+    </section>
+    
   </main>
 
   <footer>
     <p>&copy; 2025 Housewell. Veteran Owned & Family Run.</p>
   </footer>
+
+  <script>
+    let currentIndex = 0;
+    const track = document.getElementById('sliderTrack');
+    const slides = track.querySelectorAll('img');
+  
+    function slide(direction) {
+      currentIndex = (currentIndex + direction + slides.length) % slides.length;
+      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+  </script>
+  
 </body>
 </html>
