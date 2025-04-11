@@ -1,0 +1,138 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: system-ui, Lato;
+    line-height: 1.6;
+    background-color: #3d455c;
+    color: #f7f4f4;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #1144b4; /* Housewell royal blue */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 10px;
+    transition: all 0.3s ease;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  main section {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  main h2 {
+    color: #f6f7fa;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  main button {
+    background-color: #edb86e; /* Housewell mustard-gold */
+    color: rgb(244, 245, 247);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  main button:hover {
+    background-color: #ecb260;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #eee;
+    color: #555;
+    margin-top: 2rem;
+  }
+  a {
+    color: #f7f4f4;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .sticky-heading {
+    position: sticky;
+    top: 80px; /* Adjust if your header height is taller or shorter */
+    background-color: #3d455c; /* Match your page background */
+    padding: 0.5rem 1rem;
+    z-index: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 6px 6px;
+    transition: all 0.3s ease;
+  }
+
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #2f3647;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    color: #f7f4f4;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+  }
+  
+  .contact-form button {
+    background-color: #edb86e;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ecb260;
+  }
+  
+  
+  
